@@ -374,7 +374,7 @@ html {
 
 /* Big Screen Version */
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     html {
         background-color: black;
     }
