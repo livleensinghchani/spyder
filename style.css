@@ -30,8 +30,12 @@ html {
     background-image: linear-gradient(to right, var(--gradient));
 }
 
-#flagS{
+#flagS {
     border-radius: 6px 6px 0px 0px;
+}
+
+#flagE {
+    border-radius: 0px 0px 6px 6px;
 }
 
 .flag p {
