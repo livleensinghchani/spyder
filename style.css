@@ -339,8 +339,8 @@ html {
 }
 
 .p3div1 .supplytext #LTDSPLY{
-    font-size: 24px;
-    letter-spacing: 6px;
+    font-size: 34px;
+    letter-spacing: 8px;
     font-weight: bold;
 
     margin-top: 60px;
@@ -353,7 +353,7 @@ html {
 
 .p3div1 .supplytext p{
     text-align: center;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 2px;
 
     margin: 4px;
