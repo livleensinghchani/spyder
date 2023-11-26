@@ -11,6 +11,9 @@ html {
     padding: 0px;
 
     background-color: black;
+
+    user-select: none;
+    -webkit-user-select: none;
 }
 
 ::-webkit-scrollbar {
