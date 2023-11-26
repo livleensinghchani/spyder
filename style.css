@@ -258,6 +258,8 @@ html {
 
     position: relative;
     top: -29px; left: 70px;
+    
+    filter: brightness(80%);
 }
 
 #pg2web2 {
@@ -268,6 +270,8 @@ html {
 
     position: relative;
     top: 7px; right: 12px;
+
+    filter: brightness(80%);
 }
 
 .page2 .content2 {
