@@ -258,7 +258,7 @@ html {
 
     position: relative;
     top: -29px; left: 70px;
-    
+
     filter: brightness(80%);
 }
 
@@ -382,4 +382,45 @@ html {
     html {
         background-color: black;
     }
+
+/* TOP BAR */
+
+    .topbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        margin: 0px 10%;
+    }
+
+    .topbar .secondary {
+        position: relative;
+        top: -8px;
+    }
+
+    .topbar .secondary #LEARN{
+        display: block;
+    }
+
+    .topbar .secondary #BUY{
+        display: block;
+    }
+
+    .spider {
+        display: flex;
+        justify-content: end;
+        margin: 0px 10%;
+
+        position: relative;
+        left: -30px; top: -50px;
+    }
+    .spider img{
+        display: block;
+    }
+/* ---------------------------------------------- */
+
+/* PAGE 1 */
+
+
+
 }
