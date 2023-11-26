@@ -13,6 +13,11 @@ html {
     background-color: white;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background-color: rgb(20, 20, 20);
+}
+
 .wrapper {
     width: 100vw;
     max-width: 100%;
@@ -437,7 +442,7 @@ html {
         position: relative;
         left: -60px; top: -140px;
 
-        height: 150px;
+        height: 120px;
     }
     
     .content .text p {
@@ -451,6 +456,8 @@ html {
 
     .content .text #MAIN {
         width: 500px;
+
+        color: white;
 
         font-size: 50px;
         position: relative;
@@ -477,5 +484,50 @@ html {
     .content .buttons p {
         padding:  0px 40px;
         margin: 0px;
+    }
+/* -------------------------------------------------------- */
+
+/* PAGE 2 */
+
+    .page2 .main p {
+        font-size: 28px;
+
+        position: relative;
+        left: -40px; top: 20px;
+
+        margin: 0px 10%;
+    }
+
+    .page2 .main #HEADING {
+        font-size: 80px;
+
+        position: relative;
+        top: 0px;
+    }
+
+    .page2 .main .imageweb {
+        margin: 0px 10%;
+
+        justify-content: start;
+        
+        position: relative;
+        top: -10px; left: 160px;
+    }
+
+    .page2 .main .imageweb img {
+        height: 150px;
+    }
+
+    .page2 .content1 {
+        margin: 0px 0px 0px 50%;
+
+        font-size: 30px;
+        padding: 50px 20px 50px 60px;
+
+        position: relative;
+        left: 10px; top: 50px;
+
+        border-width: 8px;
+        border-radius: 100px 0px 0px 100px;
     }
 }
