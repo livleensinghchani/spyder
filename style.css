@@ -10,7 +10,7 @@ html {
     margin: 0px;
     padding: 0px;
 
-    background-color: black;
+    background-color: white;
 }
 
 .wrapper {
@@ -21,15 +21,6 @@ html {
 }
 
 /* FLAGS */
-
-    /* BIG */
-@media screen and (min-width: 500px) {
-    html {
-        background-color: white;
-    }
-}
-    /* ------------- */
-
 .flag {
     background-image: linear-gradient(to right, var(--gradient));
 }
@@ -377,4 +368,14 @@ html {
 
     background-color: black;
     border-radius: 40px;
+}
+
+/* --------------------------------------------------------------- */
+
+/* Big Screen Version */
+
+@media screen and (min-width: 600px) {
+    html {
+        background-color: black;
+    }
 }
