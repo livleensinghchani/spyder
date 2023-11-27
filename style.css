@@ -446,11 +446,20 @@ html {
 
 /* PAGE 1 */
 
+    .page1 {
+        height: 850px;
+    }
+
     .content {
         position: relative;
         left: -60px; top: -140px;
 
         height: 120px;
+    }
+
+    .content .text {
+        position: relative;
+        top: 150px;
     }
     
     .content .text p {
@@ -478,7 +487,7 @@ html {
         align-items: center;
 
         position: relative;
-        top: -125px; left: 100px;
+        top: 20px; left: 100px;
     }
 
     .content .buttons #START {
@@ -493,6 +502,12 @@ html {
         padding:  0px 40px;
         margin: 0px;
     }
+
+    .page1 .more {
+        position: relative;
+        top: 270px;
+    }
+
 /* -------------------------------------------------------- */
 
 /* PAGE 2 */
@@ -587,7 +602,7 @@ html {
 /* PAGE 3 */
 
     .page3 {
-        height: 530px;
+        height: 830px;
     }
 
     .p3div1 img {
@@ -607,14 +622,14 @@ html {
 
     .p3div1 .supplytext {
         position: relative;
-        top: -120px;
+        top: 0px;
     }
 
     .p3div1 .p3investnow {
         position: relative;
-        top: -40px;
+        top: 200px;
 
-        margin: 0px 30%;
+        margin: 0px 35%;
     }
 
     .p3div1 .p3investnow p {
